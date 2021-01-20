@@ -1,0 +1,29 @@
+a:link, a:visited
+	{ 
+		border:3px tan;
+		background-color: #804000;
+		color: whitesmoke;
+		padding: 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		border-radius: 45px;
+		font-family: 'Dancing Script', cursive;
+		font-size: 28px; 
+	}
+
+a:hover
+	{
+		background-color: tan;
+	}
+
+h3
+	{
+		font-family: 'Dancing Script', cursive;
+		color: #804000;
+		font-style: italic;
+		font-size: 45px;
+		background: white;
+		background-size: auto;
+	}
+
