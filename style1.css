@@ -1,0 +1,135 @@
+a:link, a:visited
+	{ 
+		color: black;
+		text-align: center;
+		text-decoration: none;
+		font-family: 'Jura', sans-serif;
+		font-size: 20px;
+		padding-right: 50px;
+		padding-left: 50px;
+
+	}
+
+a:hover
+	{
+		text-decoration: underline;
+	}
+
+img
+	{
+		width: 300px;
+		height: 400px;
+		object-fit: cover;
+	}
+
+h1
+	{
+		font-family: 'Rye', cursive;
+		color: firebrick;
+		font-size: 60px;
+	}
+
+h2
+	{
+		font-family: 'Tangerine', cursive;
+		color: #804000;
+		font-size: 150px;
+		margin:150px 100px 50px 100px
+	}
+
+h3
+	{
+		font-family: 'Amatic SC', cursive;
+		color: #804000;
+		font-size: 50px;
+		margin:50px 0 5px 50px
+	}
+
+h4
+	{
+		font-family: 'Cutive Mono', monospace;
+		font-size: 15px;
+	}
+
+p
+	{
+		font-family: 'Langar', cursive;
+		font-size: 18px;
+		text-align: justify;
+		margin-left: 50px;
+	}
+
+footer {
+	background: #dfbf9f;
+	color: #331a00;
+	height:150px;
+	width: auto;
+	text-align: center;
+}
+
+.content {
+  max-width: 1100px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+.left {
+ float: center;
+ padding: 0 100px 0 0;
+ width:90%;
+ height:30%;
+ object-fit: contain;
+ margin-top: 50px
+}
+
+.right {
+	float: center;
+ 	padding: 0 0 0 0;
+	width:30%;
+ 	height:10%;
+ 	object-fit: contain;
+ 	margin-top: 180px
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+li
+
+{
+  font-family: 'Langar', cursive;
+  color:#CA6F1E;
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 50px;
+}
+
+{
+        box-sizing: border-box;
+    }
+    
+
+.column {
+    float: left;
+    width: 50%;
+    }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.hyperlink {
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
